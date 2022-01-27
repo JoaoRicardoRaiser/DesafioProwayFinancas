@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator.Runner" Version="3.3.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioProwayFinancas.Dados\DesafioProwayFinancas.Dados.csproj" />
+    <ProjectReference Include="..\DesafioProwayFinancas.Database\DesafioProwayFinancas.Database.csproj" />
+    <ProjectReference Include="..\DesafioProwayFinancas.Services\DesafioProwayFinancas.Services.csproj" />
+    <ProjectReference Include="..\DesafioProwayFinancas.Ioc\DesafioProwayFinancas.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
