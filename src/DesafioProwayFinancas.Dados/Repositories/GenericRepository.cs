@@ -10,6 +10,11 @@ namespace DesafioProwayFinancas.Dados.Repositories
     {
 
         protected DbSet<T> _dbSet;
+
+        public GenericRepository(DbContext dbContext)
+        {
+            _dbSet = dbContext.Set<T>();
+        }
         
         public async Task Create(T entity)
         {

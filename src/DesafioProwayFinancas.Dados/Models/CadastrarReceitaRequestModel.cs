@@ -3,7 +3,7 @@ using System;
 
 namespace DesafioProwayFinancas.Dados.Models
 {
-    public class CadastrarReceitaModel
+    public class CadastrarReceitaRequestModel
     {
         public Guid ContaId { get; set; }
         public decimal Valor { get; set; }

@@ -1,6 +1,8 @@
-﻿namespace DesafioProwayFinancas.Dados.Repositories.ContaRepository
+﻿using DesafioProwayFinancas.Dados.Entidades;
+
+namespace DesafioProwayFinancas.Dados.Repositories.ContaRepository
 {
-    public interface IContaRepository
+    public interface IContaRepository: IGenericRepository<Conta>
     {
     }
 }

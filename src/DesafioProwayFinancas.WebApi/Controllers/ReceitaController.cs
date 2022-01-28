@@ -1,5 +1,5 @@
 ﻿using DesafioProwayFinancas.Dados.Models;
-using DesafioProwayFinancas.Services.Services.Receita;
+using DesafioProwayFinancas.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -18,13 +18,13 @@ namespace DesafioProwayFinancas.WebApi.Controllers
         }
 
         [HttpPost("cadastrar")]
-        public async Task<IActionResult> CadastrarReceita([FromBody] CadastrarReceitaModel body)
+        public async Task<IActionResult> CadastrarReceita([FromBody] CadastrarReceitaRequestModel body)
         {
             try
             {
                 if (!ModelState.IsValid)
                 {
-                    return BadRequest("Alguma das informações da receita estão inválidas");
+                    return BadRequest("Alguma das informações de request da receita estão inválidas");
                 }
 
                 await _receitaService.CadastrarReceita(body);
@@ -32,7 +32,7 @@ namespace DesafioProwayFinancas.WebApi.Controllers
             }
             catch(Exception e)
             {
-                return BadRequest($"Não foi possível cadastrar receita. Erro:{e.Message}");
+                return BadRequest($"Não foi possível cadastrar receita. Erro: {e.Message}");
             }
         }
     }

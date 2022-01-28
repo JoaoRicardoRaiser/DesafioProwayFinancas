@@ -11,6 +11,7 @@ namespace DesafioProwayFinancas.Dados.Mapeamento
             builder.ToTable("receita");
 
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).HasColumnName("id").IsRequired();
             builder.Property(x => x.ContaId).HasColumnName("conta_id").IsRequired();
             builder.Property(x => x.Valor).HasColumnName("valor").IsRequired();
             builder.Property(x => x.DataRecebimento).HasColumnName("data_recebimento").IsRequired();

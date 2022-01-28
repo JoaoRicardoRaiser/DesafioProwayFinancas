@@ -12,6 +12,7 @@ namespace DesafioProwayFinancas.Database.Migrations
                 .WithColumn("id").AsGuid().PrimaryKey().Unique()
                 .WithColumn("conta_id").AsGuid().NotNullable().ForeignKey("conta", "id")
                 .WithColumn("valor").AsDecimal().NotNullable()
+                .WithColumn("descricao").AsString().NotNullable()
                 .WithColumn("data_recebimento").AsDate().NotNullable()
                 .WithColumn("data_recebimento_esperado").AsDate().NotNullable()
                 .WithColumn("tipo_receita").AsString().NotNullable();

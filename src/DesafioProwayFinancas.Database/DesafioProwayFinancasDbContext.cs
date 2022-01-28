@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Reflection;
+﻿using DesafioProwayFinancas.Dados.Entidades;
+using Microsoft.EntityFrameworkCore;
 
 namespace DesafioProwayFinancas.Database
 {
@@ -14,7 +14,7 @@ namespace DesafioProwayFinancas.Database
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(EntidadeBase).Assembly);
         }
     }
 }

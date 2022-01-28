@@ -11,11 +11,12 @@ namespace DesafioProwayFinancas.Dados.Mapeamento
             builder.ToTable("despesa");
 
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).HasColumnName("id").IsRequired();
             builder.Property(x => x.ContaId).HasColumnName("conta_id").IsRequired();
             builder.Property(x => x.Valor).HasColumnName("valor").IsRequired();
             builder.Property(x => x.DataPagamento).HasColumnName("data_pagamento").IsRequired();
             builder.Property(x => x.DataPagamentoEsperado).HasColumnName("data_pagamento_esperado").IsRequired();
-            builder.Property(x => x.TipoDespesa).HasColumnName("valor").HasConversion<string>().IsRequired();
+            builder.Property(x => x.TipoDespesa).HasColumnName("tipo_despesa").HasConversion<string>().IsRequired();
 
             builder
                 .HasOne(x => x.Conta)

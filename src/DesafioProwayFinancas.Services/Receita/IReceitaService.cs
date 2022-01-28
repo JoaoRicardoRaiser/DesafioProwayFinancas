@@ -1,10 +1,10 @@
 ﻿using DesafioProwayFinancas.Dados.Models;
 using System.Threading.Tasks;
 
-namespace DesafioProwayFinancas.Services.Services.Receita
+namespace DesafioProwayFinancas.Services
 {
     public interface IReceitaService
     {
-        Task CadastrarReceita(CadastrarReceitaModel model);
+        Task CadastrarReceita(CadastrarReceitaRequestModel model);
     }
 }
