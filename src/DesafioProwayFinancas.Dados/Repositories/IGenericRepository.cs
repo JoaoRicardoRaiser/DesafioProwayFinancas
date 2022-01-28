@@ -9,6 +9,7 @@ namespace DesafioProwayFinancas.Dados.Repositories
     {
         Task<List<T>> ObterTodosAsync();
         Task<T> ObterPorIdAsync(Guid id);
+        Task<List<T>> ObterPorIdAsync(List<Guid> ids);
         Task Create(T entity);
         void Update(T entity);
         void Delete(T entity);

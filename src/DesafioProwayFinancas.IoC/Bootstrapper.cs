@@ -17,6 +17,7 @@ namespace DesafioProwayFinancas.IoC
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>();
             
             serviceCollection.AddScoped<IReceitaService, ReceitaService>();
+            serviceCollection.AddScoped<IContaService, ContaService>();
             
             serviceCollection.AddScoped<IReceitaRepository, ReceitaRepository>();
             serviceCollection.AddScoped<IDespesaRepository, DespesaRepository>();

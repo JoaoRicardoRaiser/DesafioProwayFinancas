@@ -1,4 +1,5 @@
 ﻿using DesafioProwayFinancas.CrossCutting.Enums;
+using DesafioProwayFinancas.CrossCutting.Exceptions;
 using DesafioProwayFinancas.Dados.Models;
 using System;
 using System.Collections.Generic;
@@ -19,23 +20,53 @@ namespace DesafioProwayFinancas.Dados.Entidades
             TipoConta tipoConta,
             string instituicaoFinanceira)
         {
-            ValidarParametros(instituicaoFinanceira);
+            VerificarSeParametrosSaoValidos(instituicaoFinanceira);
             
             Saldo = saldo;
             TipoConta = tipoConta;
             InstituicaoFinanceira = instituicaoFinanceira;
         }
 
-        public Conta(CadastrarContaRequestModel model)
+        public Conta(
+            CadastrarContaRequestModel model
+            )
         {
-            ValidarParametros(model.InstituicaoFinanceira);
+            VerificarSeParametrosSaoValidos(model.InstituicaoFinanceira);
             
             Saldo = model.Saldo;
             TipoConta = model.TipoConta;
             InstituicaoFinanceira = model.InstituicaoFinanceira;
         }
 
-        private static void ValidarParametros(string instituicaoFinanceira)
+        public void Atualizar(
+            decimal saldo,
+            TipoConta tipoConta,
+            string instituicaoFinanceira)
+        {
+            VerificarSeParametrosSaoValidos(instituicaoFinanceira);
+
+            Saldo = saldo;
+            TipoConta = tipoConta;
+            InstituicaoFinanceira = instituicaoFinanceira;
+
+        }
+
+        public void AdicionarSaldo(decimal valor)
+        {
+            Saldo += valor;
+        }
+
+        public void RetirarSaldo(decimal valor)
+        {
+            if(valor > Saldo)
+            {
+                throw new RegraInvalidaException($"O {nameof(Saldo)} é menor do que o valor solicitado para retirada");
+            }
+
+            Saldo -= valor;
+        }
+
+        private static void VerificarSeParametrosSaoValidos(string instituicaoFinanceira)
         {
             if (string.IsNullOrEmpty(instituicaoFinanceira))
             {
