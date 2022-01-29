@@ -4,6 +4,7 @@ using DesafioProwayFinancas.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace DesafioProwayFinancas.WebApi.Controllers
@@ -117,8 +118,11 @@ namespace DesafioProwayFinancas.WebApi.Controllers
             try
             {
                 var saldoTotal = await _contaService.ObterSaldoTotal();
-                var resposta = new() { ResultadoTotal = JsonConvert.SerializeObject($"O saldo total é: {Math.Round(saldoTotal, 2)}")};
-                return Ok();
+                var resposta = new Dictionary<string, string>
+                {
+                    { "saldoTotal", $"R${Math.Round(saldoTotal, 2)}" }
+                };
+                return Ok(resposta);
             }
             catch (Exception e)
             {
