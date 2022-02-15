@@ -2907,8 +2907,8 @@
     },
     "DesafioProwayFinancas.IoC/1.0.0": {
       "type": "project",
-      "path": "../DesafioProwayFinancas.Ioc/DesafioProwayFinancas.IoC.csproj",
-      "msbuildProject": "../DesafioProwayFinancas.Ioc/DesafioProwayFinancas.IoC.csproj"
+      "path": "../DesafioProwayFinancas.IoC/DesafioProwayFinancas.IoC.csproj",
+      "msbuildProject": "../DesafioProwayFinancas.IoC/DesafioProwayFinancas.IoC.csproj"
     },
     "DesafioProwayFinancas.Services/1.0.0": {
       "type": "project",
