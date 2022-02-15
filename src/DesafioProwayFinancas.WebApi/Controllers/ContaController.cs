@@ -2,7 +2,6 @@
 using DesafioProwayFinancas.Dados.Models;
 using DesafioProwayFinancas.Services;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -126,7 +125,7 @@ namespace DesafioProwayFinancas.WebApi.Controllers
             }
             catch (Exception e)
             {
-                return BadRequest($"Não foi possível obter o saldo total. Erro {e.Message}"); //Melhorar log quando tiver pessoa implementada.
+                return BadRequest($"Não foi possível obter o saldo total. Erro: {e.Message}"); //Melhorar log quando tiver pessoa implementada.
             }
         }
     }
