@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3a8j4gOxvfrsXOoEZaYmbyJqR8FfUj+S21sC/Sb/9yW1hxK9E/Miy6o0GN4mEYvD8A6edoS887fW/y23qDrdoA==",
+  "dgSpecHash": "xLxP2XXHkQjb952OlFIanmF07oU0rJY1RpRepMUBn6GoTKd/2mi/FBxNxpOKDZFkZtQOGLKArVPY+/45u+0STQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.IoC\\DesafioProwayFinancas.IoC.csproj",
+  "projectFilePath": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.Ioc\\DesafioProwayFinancas.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.raiser\\.nuget\\packages\\fluentmigrator\\3.3.2\\fluentmigrator.3.3.2.nupkg.sha512",
     "C:\\Users\\joao.raiser\\.nuget\\packages\\fluentmigrator.abstractions\\3.3.2\\fluentmigrator.abstractions.3.3.2.nupkg.sha512",

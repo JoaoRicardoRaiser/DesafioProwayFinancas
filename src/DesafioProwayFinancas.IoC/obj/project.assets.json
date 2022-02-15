@@ -986,11 +986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.IoC\\DesafioProwayFinancas.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.Ioc\\DesafioProwayFinancas.IoC.csproj",
       "projectName": "DesafioProwayFinancas.IoC",
-      "projectPath": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.IoC\\DesafioProwayFinancas.IoC.csproj",
+      "projectPath": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.Ioc\\DesafioProwayFinancas.IoC.csproj",
       "packagesPath": "C:\\Users\\joao.raiser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.IoC\\obj\\",
+      "outputPath": "C:\\Users\\joao.raiser\\Desktop\\Pessoal\\Programacao\\C#\\DesafioProwayFinancas\\src\\DesafioProwayFinancas.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
