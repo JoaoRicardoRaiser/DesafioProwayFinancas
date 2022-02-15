@@ -1,0 +1,15 @@
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\bin\Debug\net5.0\DesafioProwayFinancas.Dados.deps.json
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\bin\Debug\net5.0\DesafioProwayFinancas.Dados.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\bin\Debug\net5.0\ref\DesafioProwayFinancas.Dados.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\bin\Debug\net5.0\DesafioProwayFinancas.Dados.pdb
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\bin\Debug\net5.0\DesafioProwayFinancas.CrossCutting.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\bin\Debug\net5.0\DesafioProwayFinancas.CrossCutting.pdb
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.csprojAssemblyReference.cache
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.AssemblyInfoInputs.cache
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.AssemblyInfo.cs
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.csproj.CoreCompileInputs.cache
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.csproj.CopyComplete
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\ref\DesafioProwayFinancas.Dados.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Dados\obj\Debug\net5.0\DesafioProwayFinancas.Dados.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DesafioProwayFinancas.CrossCutting/1.0.0": {
+        "runtime": {
+          "DesafioProwayFinancas.CrossCutting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DesafioProwayFinancas.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

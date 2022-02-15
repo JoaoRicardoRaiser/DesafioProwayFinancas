@@ -1,0 +1,17 @@
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.Services.deps.json
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.Services.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\ref\DesafioProwayFinancas.Services.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.Services.pdb
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.CrossCutting.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.Dados.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.Dados.pdb
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\bin\Debug\net5.0\DesafioProwayFinancas.CrossCutting.pdb
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.csprojAssemblyReference.cache
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.AssemblyInfoInputs.cache
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.AssemblyInfo.cs
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.csproj.CoreCompileInputs.cache
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.csproj.CopyComplete
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\ref\DesafioProwayFinancas.Services.dll
+C:\Users\joao.raiser\Desktop\Pessoal\Programacao\C#\DesafioProwayFinancas\src\DesafioProwayFinancas.Services\obj\Debug\net5.0\DesafioProwayFinancas.Services.pdb
